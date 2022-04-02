@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How many stars are there on the shoulder strap of a Commissioner of Police?"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="18dp"
+
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <Button
+            android:id="@+id/cancel_click"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:insetLeft="10dp"
+            android:text="cancel" />
+
+        <Button
+            android:id="@+id/ok_click"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:insetLeft="100dp"
+            android:text="ok" />
+
+    </LinearLayout>
+
+</LinearLayout>
